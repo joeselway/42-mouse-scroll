@@ -6,7 +6,7 @@ A simple launch agent to set the ByHost preference for mouse scrolling to UNNATU
 
 Because ByHost preferences only apply to the current computer, automatically running this from your network home folder at every login will make sure your preferred settings follow you between computers @ 42.
 
-The script also sets the mouse cursor movement sensitivity. Please edit this with a value to your liking, either before running install.sh or directly in ~/Library/Scripts/setmousescroll.sh.
+The script also sets the mouse cursor movement sensitivity. **Please edit this with a value to your liking**, either before running install.sh or directly in ~/Library/Scripts/setmousescroll.sh.
 
 To do this, you can use the GUI to set it up, then run:
 

@@ -6,21 +6,5 @@ A simple launch agent to set the ByHost preference for mouse scrolling to UNNATU
 
 Because ByHost preferences only apply to the current computer, automatically running this from your network home folder at every login will make sure your preferred settings follow you between computers @ 42.
 
-The script also sets the mouse cursor movement sensitivity. **Please edit this with a value to your liking**, either before running install.sh or directly in ~/Library/Scripts/setmousescroll.sh.
-
-To do this, you can use the GUI to set it up, then run:
-
-defaults read -g com.apple.mouse.scaling
-
-… To check your current setting.
-
-There are two components:
-
-- A script to go in ~/Library/Scripts/
-- A launch agent to go in ~/Library/LaunchAgents/
-
-Because launchd is very picky about permissions, I have also included an install script.
-
-(Don't forget you might still need to chmod+x the install script)
-
-If you see the error "Load failed: 5: Input/output error" from install.sh, it just means your LaunchAgent is already loaded.
+The script will set the default to the current prior to installing and running `make`.  
+To change the default, just edit the settings and run `~/.selway/updateMouse.sh` 

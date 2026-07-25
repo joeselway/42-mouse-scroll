@@ -14,5 +14,3 @@
 
 defaults write -g com.apple.swipescrolldirection -bool FALSE
 defaults write -g com.apple.mouse.scaling 5
-
-exit 0

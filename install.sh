@@ -19,5 +19,3 @@ cp ./Library/LaunchAgents/au.org.42adel.setmousescroll.plist "$HOME"/Library/Lau
 chmod 644 "$HOME"/Library/LaunchAgents/au.org.42adel.setmousescroll.plist
 
 launchctl load -w "$HOME"/Library/LaunchAgents/au.org.42adel.setmousescroll.plist
-
-exit 0
